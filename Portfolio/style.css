@@ -1,0 +1,98 @@
+header
+{
+    background-color: #325e5b;
+    padding: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: down 100px;
+}
+header:hover
+{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    background-color: black;
+}
+body
+{
+background-image: url(Background.jpg);
+background-size:cover;
+background-position: center;
+}
+.B_design
+{
+background-color: #0f151a;
+color: #d2ded6;
+}
+
+.Logo
+{
+    max-width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+}
+.Logo:hover
+{
+    animation: marquee 10s linear infinite;
+}
+@keyframes marquee
+{
+0%
+{
+    tranform: rotate(0deg);
+}
+100%
+{
+    transform: rotate(360deg);
+}
+}
+.About
+{
+   padding: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contact:hover
+{
+    transition: background-color 0.3s ease;
+    background-color: rgb(63, 112, 96);
+
+}
+
+.Resume
+{
+    padding: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Dbutton
+{
+     padding: 10px 20px;
+    background-color: black;
+    color: white;
+    cursor:pointer;
+    font-family:Georgia;
+    font-size: large;
+}
+.Dbutton:hover
+{
+    background-color: white;
+    color:black;
+}
+.skills
+{
+    font-family:Georgia;
+    font-size: large;
+}
+.FooterD
+{
+    background-color: black;
+    color: White;
+    font-family:Georgia;
+    font-size: large;
+}

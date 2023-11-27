@@ -1,0 +1,26 @@
+.bdy
+{
+   background-color: grey;
+    text-align: center;
+    margin-top: 50px;
+}
+input
+{
+    width: 75px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 20px;
+}
+input:hover
+{
+    background-color: black;
+    color: white;
+}
+.bar
+{
+    width: 330px;
+    height: 30px;
+    color: bisque;
+     background-color: black;
+}

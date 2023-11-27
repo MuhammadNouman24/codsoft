@@ -1,0 +1,67 @@
+body {
+    background-image: url(carlos-muza-hpjSkU2UYSU-unsplash.jpg);
+    background-size: cover;
+    background-position: fixed;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #fbfafa;
+    text-align: left;
+  }
+  
+  h1:hover {
+    background-color: black;
+  }
+  .naviagtion
+  {
+   align-items:end ;
+  }
+  h2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .btn {
+    display: block;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-family: Georgia;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .para {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  .para:hover {
+    background-color: #3f7060;
+  }
+  
+  footer {
+    text-align: center;
+    color: white;
+    font-family: Georgia;
+    font-size: large;
+    padding-top: 220px;
+   
+    text-align: left;
+  }
